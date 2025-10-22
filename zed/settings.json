@@ -1,0 +1,44 @@
+{
+  "debugger": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "terminal": {
+    "font_family": "FiraCode Nerd Font Mono",
+    "button": false,
+    "dock": "bottom"
+  },
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    },
+    "default_profile": "write",
+    "model_parameters": [],
+    "default_model": {
+      "provider": "ollama",
+      "model": "gpt-oss:20b"
+    }
+  },
+  "project_panel": {
+    "hide_gitignore": false,
+    "dock": "right"
+  },
+  "icon_theme": "Soft Charmed Icons",
+  "ui_font_size": 14,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Iced Latte (Blur) [Heavy]",
+    "dark": "Catppuccin Mocha (Blur) [Heavy]"
+  },
+  "lsp": {
+    "wakatime": {
+      "initialization_options": {
+        "api-key": "$WAKATIME_API_KEY"
+      }
+    }
+  }
+}

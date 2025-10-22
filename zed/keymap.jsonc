@@ -1,0 +1,25 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert && !menu",
+    "bindings": {
+      // "j k": "vim::SwitchToNormalMode"
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-p": "file_finder::Toggle",
+      "cmd-shift-p": "command_palette::Toggle",
+      "cmd-k": "assistant::InlineAssist",
+      "cmd-i": "agent::NewThread",
+      "cmd-b cmd-e": "project_panel::ToggleFocus",
+      "cmd-j": "terminal_panel::ToggleFocus",
+    },
+  },
+]
