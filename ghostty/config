@@ -1,0 +1,22 @@
+# Font
+font-family = FiraCode Mono Nerd Font
+font-size = 22
+
+# Theme
+theme = catppuccin-mocha
+
+# Window
+window-padding-x = 12
+window-save-state = always
+
+# Cursor
+adjust-cursor-thickness = 2
+cursor-style = bar
+cursor-style-blink = false
+shell-integration = zsh
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+
+# Clipboard
+clipboard-trim-trailing-spaces = true
+copy-on-select = clipboard
