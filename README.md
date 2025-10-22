@@ -22,3 +22,11 @@ This repository contains my configurations for **fastfetch**, **ghostty**, **zed
 I also use **sketchybar**, my configuration is a modified version of [FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar)
 
 Another thing I use is **Catppuccin Userstyles** (Mocha) which you can find [here](https://github.com/catppuccin/userstyles)
+
+## Apply
+
+To apply these configurations, run the following commands:
+```sh
+git clone https://github.com/myferr/config.git
+bash config/install.sh
+```
